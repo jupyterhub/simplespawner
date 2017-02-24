@@ -26,7 +26,7 @@ pip install jupyterhub-simplespawner
 ```
 
 You can set JupyterHub to use this spawner with the following line in your
-`jupyter_config.py`:
+`jupyterhub_config.py`:
 
 ```
 c.JupyterHub.spawner_class = 'simplespawner.SimpleLocalProcessSpawner'
