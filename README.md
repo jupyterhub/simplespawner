@@ -1,3 +1,14 @@
+# ⚠️⚠️⚠️ DEPRECATED ⚠️⚠️⚠️ #
+
+SimpleLocalProcessSpawner is now a [part of JupyterHub core](https://github.com/jupyterhub/jupyterhub/blob/3800ceaf9edf33a0171922b93ea3d94f87aa8d91/jupyterhub/spawner.py#L1647). 
+You can migrate to it by setting:
+
+```python
+c.JupyterHub.spawner_class = "simple"
+```
+
+The JupyterHub documentation has more information on [how to setup a development environment](https://jupyterhub.readthedocs.io/en/stable/contributing/setup.html)
+
 # JupyterHub Simple Spawner #
 
 A very simple [Spawner](https://github.com/jupyter/jupyterhub/wiki/Spawners) for
